@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+}
+body, html{
+    scrollbar-width: thin;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(red, yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+input{
+    width: calc(100% - 100px);
+    height: 30px;
+    padding: 10px 30px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
